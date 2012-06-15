@@ -1,0 +1,386 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lo",
+				"log"
+			],
+			[
+				"Bro",
+				"BrowserKeyowrds"
+			],
+			[
+				"Br",
+				"BrowserDescription"
+			],
+			[
+				"output",
+				"outputMessage"
+			],
+			[
+				"tex",
+				"text	text-transform: capitalize/upper/lower"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Java/Ant.sublime-build",
+	"command_palette":
+	{
+		"height": 107.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 620.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/basic/basic.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section12-style/fr-style.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section12-style/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/basic/main.js",
+		"/Applications/Adobe Photoshop CS5/Presets/Scripts/resize.jsx",
+		"/Users/carlosrodriguez/Desktop/resize.jsx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section08-features/features.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section08-features/features.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section08-features/features.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section14-freshpedition/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section14-freshpedition/freshpedition.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section03-handsfree/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section01-loader/loader.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section12-style/fr-style.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section05-twin/twin.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/widgets/imgLoader/imgLoader.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/header/header.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/header/header.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section03-handsfree/handsfree.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/index.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section05-twin/twin.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section07-space/space.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section05-twin/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section13-warranty/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section13-warranty/warranty.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section07-space/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/assets/scripts-global.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/widgets/magnifier/magnifier.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/widgets/magnifier/magnifier.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/widgets/magnifier/magnifier-simple.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/styleguide/widgets/widgets.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/styleguide/widgets/index.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section12-style/index.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/widgets/magnifier/magnifier-old.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section08-features/index.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section02-intro/intro.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section02-intro/intro.css",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section02-intro/section.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/widgets/magnifier/magnifier.aspx",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/ui/basic/lib/jquery.ba-tinypubsub.js",
+		"/Users/carlosrodriguez/Work/Projects/ge/source/modules/section12-style/fr-style1.css",
+		"/Users/carlosrodriguez/Work/Projects/Casper-SEO/app.js",
+		"/Users/carlosrodriguez/Work/Projects/Casper-SEO/seotest.js",
+		"/Users/carlosrodriguez/Work/Projects/Scraper/app.js",
+		"/Users/carlosrodriguez/Work/Projects/Syrup/source/sample.json",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/seo.js",
+		"/Users/carlosrodriguez/Work/Projects/spider-man/lib/spider-man.js",
+		"/Users/carlosrodriguez/Work/Projects/youtube-scraper/app.js",
+		"/Users/carlosrodriguez/Work/Projects/youtube-scraper/lib/yscraper.js",
+		"/Users/carlosrodriguez/Work/Projects/Panda/lib/panda.coffee",
+		"/Users/carlosrodriguez/Work/Projects/Syrup/source/sample-v2.json",
+		"/Users/carlosrodriguez/Work/Projects/Syrup/package.json",
+		"/Users/carlosrodriguez/Work/Projects/Syrup/.gitignore",
+		"/Users/carlosrodriguez/Work/Projects/Syrup/lib/analytics.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/grunt.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/config/deploy/staging.rb",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/config/deploy.rb",
+		"/Users/carlosrodriguez/Desktop/org.jenkins-ci.plist",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/server.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/app.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/.gitignore",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/mongodb.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/package.json",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/db/schema",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/test/seo.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/node_modules/zombie/lib/zombie/browser.coffee",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/pjwalmart.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/cookies.txt",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/analytics.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/analytics.coffee",
+		"/Users/carlosrodriguez/Work/Projects/Unit-test-practice-project/solution/solution.coffee",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/analytics-node.coffee",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/views/index.jade",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/views/thanks.jade",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/routes/index.js",
+		"/Users/carlosrodriguez/Work/Projects/Scraper/app-littelfuse.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/lib/email.js",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/TODO.md",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/results/--test-test2.csv",
+		"/Users/carlosrodriguez/Work/Projects/zombie-seo/log.txt",
+		"/Users/carlosrodriguez/Work/Projects/tms/source/tracker.js",
+		"/Users/carlosrodriguez/Work/Projects/tms/grunt.js",
+		"/Users/carlosrodriguez/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/default-old.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/technology-security/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/technology-security/questions-about-voip/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/technology-security/remote-pc-support-scam-alert/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/technology-security/make-your-home-smart/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/technology-security/home-automation-systems-for-all/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/includes/components/accordion-nav.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/home-safety-basics/home-surveillance-systems-reduce-vandalism/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/security-topics/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/safety-tips/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/safety-tips/home-security-tips/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/learning-centre/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/home-security-reviews/smoke-detectors/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/home-security-reviews/motion-sensor-detection/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/home-security-reviews/medical-alarm-systems/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/home-security-reviews/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/monitoring/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/monitoring/custom-home/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/home-health-security/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/adt-pulse/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/home-security-reviews/default-banner.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/video-surveillance/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/adt-pulse/how-it-works/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/security-guards/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/solutions/intercom-systems/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/includes/components/accordion-nav-smb.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/solutions/access-control/access-guard/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/solutions/video-surveillance/remote-access/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/solutions/video-surveillance/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/learning-centre/security-advisor/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/why-adt/ulc-verification/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/why-adt/adts-guarantees/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/why-adt/adt-promise/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/why-adt/24-hour-monitoring/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/why-adt/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/solutions/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/includes/header-smb.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/small-business/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/common/js/script.js",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/common/js/adt-mvs.js",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/adt-guarantee/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/benefits/default.aspx",
+		"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security/why-adt/adt-customer-stories/smoke-detectors/default.aspx"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/carlosrodriguez/Work/Projects/adt.ca/source/home-security",
+			"",
+			"/Users/carlosrodriguez/Work/Projects/ADT-Canada/source"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"imageSeqLoader",
+			"imageSeqLoader.nearestIndex;",
+			"features.index",
+			"showImage",
+			"ipad",
+			"lifestyle-object",
+			"ipad",
+			"noscript",
+			"sprite",
+			"imgCreate",
+			"headline",
+			"button.js",
+			"showIpad",
+			"ipad",
+			"el",
+			"ProgressiveImageSequence",
+			" img",
+			"fdrVideoImage",
+			".img",
+			"adjustViewport",
+			"img",
+			"fdr-container",
+			"info",
+			"sceneHeight",
+			"fdrScrollPosition",
+			"app.info",
+			"publ",
+			"animateMove",
+			"publish('maganimation.move',",
+			"animateMove",
+			"maganimation.start",
+			"featuresBox",
+			"updateFeature",
+			"easeOutBack",
+			"carlo",
+			"article_collection",
+			"articles",
+			"ArticleProvider",
+			"article_collection",
+			"articles",
+			"totalChecked",
+			"console.log",
+			"symlink",
+			"deploy:create_symlink",
+			"outputFile",
+			"module.exports.",
+			"form-container",
+			"inter",
+			"/adt-customer-stories/",
+			"24h",
+			"/learning-centre",
+			"/learning-center/",
+			"learnnig",
+			"-center",
+			"@memberOf TRACKER-tms",
+			"<!--#include virtual=\"/ADT/ADT Forum/ADT Forum/ui/source/includes/components/soctabs-overlay.aspx\" -->",
+			"ekForumButtonWrapper",
+			"505050",
+			"mont",
+			"twi",
+			"global_callback",
+			"callbac",
+			"typeto",
+			"@memberOf TRACKER-tracker",
+			"console.log",
+			"checkex",
+			"init(",
+			"init",
+			"bgti",
+			"readInstructions",
+			"tab",
+			"charAt",
+			"files",
+			"checkLoadedCache",
+			"bgt_tracker_qt",
+			"innerHTML",
+			"hasOwn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"element",
+			"seo_collection",
+			"seo_results",
+			"Resultsdb",
+			"results_collection",
+			"results",
+			"SEO.debug",
+			"SEO.",
+			"assessment-form",
+			"/home-security-reviews/",
+			"/learning-centre/",
+			"",
+			"@memberOf TRACKER-tms"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/carlosrodriguez/Work/Sublime Projects/tms.sublime-project"
+			],
+			[
+				"uss",
+				"/Users/carlosrodriguez/Work/Sublime Projects/ussa.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 337.0,
+	"status_bar_visible": true
+}
