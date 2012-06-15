@@ -4,14 +4,6 @@ define('BASE_PATH', dirname(__FILE__));
 include(BASE_PATH."/mustache.php");
 
 global $post;
-global $handlebars;
-
-wp_enqueue_script( 'jquery' );
-wp_enqueue_script( 'handlebars', get_bloginfo( 'stylesheet_directory' ) . '/js/handlebars.js',
-  null,
-  null,
-  false
-);
 
 the_post();
 get_header();
@@ -36,15 +28,19 @@ class Template{
   }
 }
 
+$content = new Template();
+
+wp_enqueue_script( 'jquery');
+wp_enqueue_script( 'mustache', get_bloginfo( 'stylesheet_directory' ) . '/js/mustache.js',
+  null,
+  null,
+  false
+);
 
 ?>
 
 <div id="primary">
   <div id="content" role="main">
-
-      <?php
-      // if ( have_posts() ) while ( have_posts() ) : the_post();
-      ?>
 
         <?php
 
@@ -53,27 +49,49 @@ class Template{
             'content' => get_the_content()
           );
 
-          $content = new Template();
-          $c = $content->render('/views/posts.js', $data);
-          $d = $content->render('/views/posts-alternative.js', $data);
-          
-          echo $c;
+          echo $content->render('/views/posts.js', $data);
+
+          $d = $content->render('/views/posts-alternative.js', $post);
           echo $d;
+
         ?>
 
-      <?php
-      // endwhile; endif;
-      ?>
+        <a href="#" class="test">Load content</a>
+
+        <div class="content-loader"></div>
 
   </div>
 </div>
 
-<!-- Our Mustache Template -->
-<script id="post-template" type="text/x-handlebars-template">
-  <?php 
-  $handlebars = true; 
-   
-  ?>
-</script>
 
 <?php get_footer(); ?>
+
+<script>
+var $ = jQuery;
+$(document).ready(function(){
+  $(".test").on('click', function(){
+    console.log('click');
+    $.ajax({
+      url: "<?php echo bloginfo('template_url'); ?>/views/posts.js",
+      dataType: 'html',
+      success: function(template) { 
+        console.log('test');
+        var view = {
+          title: 'JS title',
+          content: 'JS content'
+        }
+
+        var output = Mustache.render(template, view);
+        console.log(template, output);
+
+        $(".content-loader").html(output);
+      },
+      error: function(xhr, ajaxOptions, thrownError){
+        console.log(xhr.status);
+        console.log(thrownError);
+        console.log('error');
+      }
+    });
+  })
+})
+</script>
