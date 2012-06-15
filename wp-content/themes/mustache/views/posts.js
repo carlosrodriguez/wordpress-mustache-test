@@ -1,1 +1,2 @@
-Hello {{planet}} test; 
+<h1>{{title}}</h1>
+{{content}}

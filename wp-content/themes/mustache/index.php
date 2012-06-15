@@ -16,22 +16,54 @@ wp_enqueue_script( 'handlebars', get_bloginfo( 'stylesheet_directory' ) . '/js/h
 the_post();
 get_header();
 
+class Template{
+  var $b = BASE_PATH;
+  var $m;
+  var $t;  
+
+  function __construct(){
+      $this->m = new Mustache;
+   }
+
+  function load($template){
+    $this->t = file_get_contents($this->b.$template);
+  }
+
+  function render($template, $data){
+    $me = $this->m;
+    $this->load($template);
+    return $me->render($this->t, $data);
+  }
+}
+
+
 ?>
 
 <div id="primary">
   <div id="content" role="main">
 
-      <h1>Test</h1>
+      <?php
+      // if ( have_posts() ) while ( have_posts() ) : the_post();
+      ?>
 
-      <div id="team-member">
         <?php
-          $m = new Mustache;
-          $t = file_get_contents(BASE_PATH.'/views/posts.js');
-          echo $m->render($t, array('planet' => 'World!'));
 
-          //echo $m->render('Hello {{planet}}', array('planet' => 'World!'));
+          $data = array(
+            'title' => get_the_title(),
+            'content' => get_the_content()
+          );
+
+          $content = new Template();
+          $c = $content->render('/views/posts.js', $data);
+          $d = $content->render('/views/posts-alternative.js', $data);
+          
+          echo $c;
+          echo $d;
         ?>
-      </div>
+
+      <?php
+      // endwhile; endif;
+      ?>
 
   </div>
 </div>
